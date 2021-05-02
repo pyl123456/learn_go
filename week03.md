@@ -1,3 +1,4 @@
+```
 func main() {
 	g, ctx := errgroup.WithContext(context.Background())
 
@@ -49,3 +50,4 @@ func main() {
 
 	fmt.Printf("errgroup exiting: %+v\n", g.Wait())
 }
+```
